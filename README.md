@@ -9,13 +9,15 @@ A comprehensive student dashboard application that addresses key pain points in 
 ## 🌟 Features
 
 ### 📊 **Application Tracking**
+
 - Visual progress tracking with status indicators
 - Real-time application status updates
 - Deadline monitoring and alerts
 - Progress completion percentages
 - Multi-country university support
 
-### 💬 **Communication Management** 
+### 💬 **Communication Management**
+
 - Organized counsellor message center
 - Priority-based message sorting (high, medium, low)
 - Message type categorization (updates, reminders, messages)
@@ -23,6 +25,7 @@ A comprehensive student dashboard application that addresses key pain points in 
 - Notification system for new messages
 
 ### 🎯 **Transparent University Recommendations**
+
 - AI-powered match scoring system
 - Clear recommendation criteria and reasoning
 - Transparent university information:
@@ -33,6 +36,7 @@ A comprehensive student dashboard application that addresses key pain points in 
 - Personalized recommendations based on student profile
 
 ### 📈 **Analytics Dashboard**
+
 - Application statistics overview
 - Acceptance rate tracking
 - Communication metrics
@@ -41,23 +45,27 @@ A comprehensive student dashboard application that addresses key pain points in 
 ## 🚀 Quick Start
 
 ### Prerequisites
-- Node.js 18+ 
+
+- Node.js 18+
 - PNPM (recommended package manager)
 
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone <repository-url>
    cd edutracker
    ```
 
 2. **Install dependencies**
+
    ```bash
    pnpm install
    ```
 
 3. **Start development server**
+
    ```bash
    pnpm dev
    ```
@@ -70,6 +78,7 @@ A comprehensive student dashboard application that addresses key pain points in 
 ## 🛠️ Tech Stack
 
 ### Frontend
+
 - **React 18** - Modern React with hooks
 - **TypeScript** - Type-safe development
 - **Vite** - Fast build tool and dev server
@@ -79,11 +88,13 @@ A comprehensive student dashboard application that addresses key pain points in 
 - **Lucide React** - Beautiful icon library
 
 ### Backend
+
 - **Express.js** - Node.js web framework
 - **TypeScript** - Server-side type safety
 - **Zod** - Runtime type validation
 
 ### Development Tools
+
 - **Vitest** - Fast unit testing
 - **Prettier** - Code formatting
 - **ESLint** - Code linting
@@ -116,6 +127,7 @@ A comprehensive student dashboard application that addresses key pain points in 
 ## 🎨 Design System
 
 ### Color Palette
+
 - **Primary**: Professional blue (`#3B82F6`) for trust and reliability
 - **Success**: Green (`#10B981`) for positive actions
 - **Warning**: Amber (`#F59E0B`) for attention items
@@ -123,6 +135,7 @@ A comprehensive student dashboard application that addresses key pain points in 
 - **Muted**: Gray tones for secondary content
 
 ### Key UI Components
+
 - **Cards** - Information containers
 - **Badges** - Status indicators with color coding
 - **Progress Bars** - Visual completion tracking
@@ -157,21 +170,25 @@ pnpm format.fix
 ### Adding New Features
 
 #### New API Route
+
 1. Create handler in `server/routes/`
 2. Add route to `server/index.ts`
 3. Define types in `shared/api.ts`
 
 #### New Page
+
 1. Create component in `client/pages/`
 2. Add route in `client/App.tsx`
 
 #### New UI Component
+
 1. Use existing components from `client/components/ui/`
 2. Follow established patterns and styling
 
 ## 🚀 Deployment
 
 ### Build for Production
+
 ```bash
 pnpm build
 ```
@@ -179,16 +196,19 @@ pnpm build
 ### Deploy to Cloud Platforms
 
 #### Netlify
+
 1. Connect your repository to Netlify
 2. Set build command: `pnpm build`
 3. Set publish directory: `dist/spa`
 
 #### Vercel
+
 1. Connect your repository to Vercel
 2. Vercel will auto-detect the framework
 3. Deploy automatically on push
 
 #### Docker (Optional)
+
 ```dockerfile
 FROM node:18-alpine
 WORKDIR /app
@@ -241,6 +261,7 @@ pnpm test --coverage
 5. Open a Pull Request
 
 ### Code Style Guidelines
+
 - Use TypeScript for all new code
 - Follow existing naming conventions
 - Write tests for new features
@@ -250,13 +271,17 @@ pnpm test --coverage
 ## 📊 Key Metrics & Goals
 
 ### Problem Statement
+
 Students using educational consulting services face:
+
 - **Confusion** in tracking multiple applications
 - **Frustration** with excessive counsellor communication
 - **Distrust** due to lack of transparency in recommendations
 
 ### Solution Impact
+
 EduTracker addresses these issues by providing:
+
 - Clear visual application tracking (reduces confusion by 80%)
 - Organized communication management (reduces message overload)
 - Transparent recommendation system (builds trust through clarity)
@@ -264,17 +289,20 @@ EduTracker addresses these issues by providing:
 ## 🔮 Roadmap
 
 ### Phase 1 (Current)
+
 - ✅ Basic dashboard with application tracking
 - ✅ Communication management system
 - ✅ University recommendations with transparency
 
 ### Phase 2 (Next)
+
 - [ ] Real-time notifications
 - [ ] Document upload and management
 - [ ] Calendar integration for deadlines
 - [ ] Mobile responsive improvements
 
 ### Phase 3 (Future)
+
 - [ ] AI-powered application assistance
 - [ ] Integration with university portals
 - [ ] Analytics and reporting
@@ -287,6 +315,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙋‍♂️ Support
 
 For support, please contact:
+
 - Email: support@edutracker.com
 - Issues: [GitHub Issues](https://github.com/your-username/edutracker/issues)
 - Documentation: [Wiki](https://github.com/your-username/edutracker/wiki)
